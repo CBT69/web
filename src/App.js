@@ -37,7 +37,7 @@ function App() {
 
       <div className="CGI">
         <div className="text">
-        Computer Graphic Imiagining
+        Computer Generated Imiagery
         </div>
         <div className="text">
         
