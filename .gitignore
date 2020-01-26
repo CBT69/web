@@ -22,3 +22,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 node_modules
+src/components/img/triangle.psd
+src/components/img/blend.psd
+src/components/img/bear.psd
+src/components/img/Baner.psd
