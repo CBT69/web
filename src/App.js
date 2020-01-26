@@ -1,17 +1,27 @@
 import React from 'react';
-import logo from './components/img/triangle.png';
+import logo from './components/img/triangle2.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      
       <header className="App-header">
         <p>
-          Home  -  WebDev  -  CGI  - Contact
+          Home
+        </p>
+        <p>
+          WebDev
+        </p>
+        <p>
+          CGI
+        </p>
+        <p>
+          About
         </p>
       </header>
 
-      <div className="wrapper">
+      <div className="Wrapper">
         <div className="text">
         Take A Break And Get Creative
         </div>
@@ -22,22 +32,19 @@ function App() {
 
       
       <div className="WebDev">
-        <div className="text">
+        <div className="textLg">
         Web Development
         </div>
-        <div className="banner">
-        
-        </div>
-        <div className="text">Web Dev Skills:</div>
-        <div className="textsm">
+        <div className="textLg">Web Dev Skills:</div>
+        <div className="text">
           Programming,
           Design
         </div>
       </div>
 
       <div className="CGI">
-        <div className="text">
-        Computer Graphic Imiagining
+        <div className="textLg">
+        Computer Generated Imagery
         </div>
         <div className="text">
         
@@ -45,7 +52,7 @@ function App() {
       </div>
 
       <div className="About">
-        <div className="text">
+        <div className="textLg">
         About Me
         </div>
         <div className="text">
@@ -53,7 +60,11 @@ function App() {
         </div>
       </div>
 
-      <div className="footer">CBT 2020</div>
+      <div className="Footer">
+      <div className="text">
+      CBT 2020
+      </div>
+      </div>
 
     </div>
   );

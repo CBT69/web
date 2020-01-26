@@ -3,79 +3,87 @@
   background-color: black;
 }
 
-
-.App-header {
-  background-color: #161616;
-  height: 10vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: rgb(219, 177, 60);
-}
-
 .App-link {
   color: #61dafb;
 }
-
-.wrapper {
-  color: azure;
-  background-color: black;
-  min-height: 90vh;
-}
-
 .text {
   color: rgb(219, 177, 60);
-  font-size: 25px ;
+  font-size: 1.2em;
   padding: 5px;
 }
 
-.textsm {
+.textLg {
   color: rgb(219, 177, 60);
-  font-size: 15px ;
-  padding: 5px;
+  font-size: 2em;
+  font-weight: 800;
+}
+
+/* Components  CSS*/
+.App-header {
+  background-color: #161616;
+  height: 8vh;
+  width: 100vw;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: calc(10px + 2vmin);
+  color: rgb(219, 177, 60);
+  z-index: 10;
+}
+
+.Wrapper {
+  color: azure;
+  background-color: black;
+  height: 100vh;
+  padding-top: 8vh;
+  padding-bottom: 5vh;
+  z-index: -1;
+}
+.Footer {
+  min-height: 5vh;
+  width: 100vw;
+  color: rgb(219, 177, 60);
+  background-color: #161616;
+  font-size: .7em;
+  z-index: 5;
+  position: fixed;
+  left: 0;
+  bottom: 0;
 }
 
 .WebDev {
-  margin-top: 20px;
-  min-height: 90vh;
-}
-
-.banner {
   background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url('./components/img/Baner.png');
-  min-height: 35vh;
+  background-image: url('./components/img/blend2.png');
+  height: 99vh;
+  padding-top: 8vh;
   background-position: center;
-  width: 100%;
+  width: 100vw;
   margin-bottom: 15px;
 }
 
-
 .CGI {
   background-size: cover;
-  background-image: url('./components/img/bear.png');
-  min-height: 90vh;
-  margin-top: 20px;
+  background-image: url('./components/img/bear2.png');
+  height: 99vh;
+  padding-top: 8vh;
   background-position: center;
-  width: auto;
+  width: 100vw;
+  margin-bottom: 15px;
 }
 
 .About {
   background-size: cover;
-  background-image: url('./components/img/blend.png');
-  min-height: 90vh;
-  margin-top: 20px;
+  background-repeat: no-repeat;
+  background-image: url('./components/img/Baner2.png');
+  min-height: 30vw;
   background-position: center;
-  width: auto;
+  width: 100vw;
+  padding-top: 8vh;
+  margin-bottom: 15px;
 }
-.footer {
-  min-height: 5vh;
-  color: rgb(219, 177, 60);
-  background-color: #161616;
-  font-size: calc(5px + 1vmin);
-}
+
 
 @keyframes App-logo-spin {
   from {
