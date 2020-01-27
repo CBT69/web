@@ -1,3 +1,9 @@
+#API fetch App
+This repository contains files used to create a webapp in React. It is both an exercise and an attempt to make a complete application while learning a new framework.
+The goal is to create a working portfolio app, that will be a base for further development. It should show the skillful use of the framework along with good design and coding practices using current standards.
+The application is under continuous development and made public on a regular basis.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
